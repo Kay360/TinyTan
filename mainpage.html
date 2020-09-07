@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Tan Fansite</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .logo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .logo a {
+            padding: 12px;
+            display: block;
+        }
+        
+        #tinylogo img {
+            border: 0px solid;
+            border-radius: 200px;
+        }
+        
+        #micdroplink img {
+            border: 0px;
+            border-radius: 200px;
+        }
+        
+        #btslogo img {
+            border: 0px solid;
+            border-radius: 200px;
+        }
+        
+        .logo a img:hover {
+            height: 250px;
+            width: 250px;
+        }
+        
+        #leftdiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            z-index: 2;
+            width: 60%;
+        }
+        
+        #rightdiv {
+            display: flex;
+            flex-direction: column;
+            z-index: 3;
+            width: 15%;
+        }
+        
+        #x {
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            align-self: center;
+            justify-content: center;
+            object-fit: cover;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        
+        #page1 {
+            height: 100vh;
+        }
+        
+        #page2 {
+            height: 100vh;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #videodiv {
+            border: 0px solid rgb(45, 30, 71);
+            margin: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            object-fit: cover;
+            height: 80%;
+            width: 60%;
+            background-image: url(tinytan/tinytanwhitelogo3.png);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div id="page1">
+            <div id="x">
+
+                <img src="assets/img/landing.png" usemap="#image-map">
+                <map name="image-map">
+
+                    <area target="" alt="tae" title="tae" href="assets/mp4/Precious Baby Bear.mp4" coords="791,275,864,391" shape="rect">       
+                    <area target="" alt="jhope" title="jhope" href="assets/mp4/Little Hope Right Here.mp4" coords="518,645,435,510" shape="rect" onmouseover="">
+                    <area target="" alt="suga" title="suga" href="assets/mp4/Sweetie with Swagger.mp4" coords="531,510,599,646" shape="rect">
+                    <area target="" alt="joon" title="joon" href="assets/mp4/Unbreakable Cuteness.mp4" coords="825,510,910,642" shape="rect">
+                    <area target="" alt="jimin" title="jimin" href="assets/mp4/Lovely Little Angel .mp4" coords="602,509,671,650" shape="rect">
+                    <area target="" alt="jin" title="jin" href="assets/mp4/Worldwide Cutie .mp4" coords="676,514,750,642" shape="rect">
+                    <area target="" alt="kookie" title="kookie" href="assets/mp4/Adorable Golden Baby.mp4" coords="690,352,762,467" shape="rect" >
+           
+        </map>
+            </div>
+            <div class="logo">
+                <div id="leftdiv">
+                    <div id="tinylogo">
+                        <a href="https://twitter.com/tinytanofficial" target="popup">
+
+
+                            <img src="assets/img/tinytanlogo.jpg" height="200px" width="200px">
+                        </a>
+                    </div>
+                    <div id="micdroplink">
+                        <a href="#videodiv" target="">
+
+
+                            <img src="assets/img/bodyroll3.jpeg" height="160px" width="160px">
+                        </a>
+                    </div>
+                </div>
+                <div id="rightdiv">
+
+
+                    <div id="btslogo">
+                        <a href="https://ibighit.com/bts/eng/" target="popup">
+                            <img src="assets/img/btslogo4.jpg" height="170px" width="170px">
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div id="page2">
+
+            <div id="videodiv" alt="Magic Door">
+
+
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yf9Nlq5wrf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
