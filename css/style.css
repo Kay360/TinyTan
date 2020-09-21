@@ -24,6 +24,13 @@ body {
     flex-wrap: nowrap;
 }
 
+#x img {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
 .logo {
     display: flex;
     flex-direction: row;
