@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+#x {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #btslogo a img,
+    #tinylogo a img,
+    #micdroplink a img {
+        width: 130px;
+        height: 130px;
+    }
+    #btslogo a img:hover,
+    #tinylogo a img:hover,
+    #micdroplink a img:hover {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.logo a {
+    padding: 12px;
+    display: block;
+}
+
+#tinylogo img {
+    height: 180px;
+    width: 180px;
+    border: 0px solid;
+    border-radius: 200px;
+}
+
+#tinylogo img:hover {
+    height: 250px;
+    width: 250px;
+}
+
+#micdroplink img {
+    height: 160px;
+    width: 160px;
+    border: 0px;
+    border-radius: 200px;
+}
+
+#micdroplink img:hover,
+#btslogo img:hover {
+    height: 250px;
+    width: 250px;
+}
+
+#btslogo img {
+    height: 170px;
+    width: 170px;
+    border: 0px solid;
+    border-radius: 200px;
+}
+
+#leftdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    z-index: 2;
+    width: 60%;
+}
+
+#rightdiv {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    width: 15%;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(black, rgb(35, 17, 35));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videodiv {
+    border: 0px solid rgb(45, 30, 71);
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    height: 80%;
+    width: 60%;
+    background-image: url(tinytan/tinytanwhitelogo3.png);
+}
