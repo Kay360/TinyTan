@@ -122,3 +122,11 @@ body {
     width: 60%;
     background-image: url(tinytan/tinytanwhitelogo3.png);
 }
+#clicktinytan {
+    background-color:powderblue;
+    height: 260px;
+    width: 160px;
+    border: 0px;
+    border-radius: 200px;
+    
+}
