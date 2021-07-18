@@ -131,7 +131,10 @@ body {
     height:50px;
     width:50px;  
     font-size:25px;
-    
+     display: flex;
+    flex-direction: column;
+    z-index: 3;
+    width: 35%;
     font-family: "Papyrus", fantasy;
 }
 #clicktinytan  div:hover {
