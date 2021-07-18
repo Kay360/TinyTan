@@ -126,11 +126,12 @@ body {
     background-image: url(tinytan/tinytanwhitelogo3.png);
 }
 #clicktinytan {
-    color:#F7CF78ff;
+    color:#D7B462ff;
     padding-top:160px;
     border-top: 160%;
-    height:20px;
-    width:20px;  
+    height:30px;
+    width:30px;  
+    transform: rotate(20deg);
 }
 #clicktinytan  div:hover {
     height: 200px;
