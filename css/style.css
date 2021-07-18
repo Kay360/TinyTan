@@ -133,7 +133,7 @@ body {
     width:50px;  
     font-size:30px;
     transform: rotate(330deg);
-    font-family:"Chalkduster", fantasy;
+    font-family: "fantasy",Chalkduster;
     font
 }
 #clicktinytan  div:hover {
