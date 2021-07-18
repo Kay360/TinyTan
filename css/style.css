@@ -123,9 +123,9 @@ body {
     background-image: url(tinytan/tinytanwhitelogo3.png);
 }
 #clicktinytan {
-    background-color:"blue";
+    background-color:blue;
    
-    color:"white";
+    color:white;
 
     border-top: 5px;
 
