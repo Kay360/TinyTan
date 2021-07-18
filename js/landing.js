@@ -1,4 +1,4 @@
-alert("Kindly enable Audio and Video permissions for the website");
+var promtOn= alert("Kindly enable Audio and Video permissions for the website");
            
 function landingvid() {
 
