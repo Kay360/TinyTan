@@ -129,9 +129,12 @@ body {
     color:#D7B462ff;
     padding-top:160px;
     border-top: 160%;
-    height:30px;
-    width:30px;  
-    transform: rotate(310deg);
+    height:50px;
+    width:50px;  
+    font-size:10px;
+    transform: rotate(330deg);
+    font-family:"Chalkduster, fantasy";
+    font
 }
 #clicktinytan  div:hover {
     height: 200px;
