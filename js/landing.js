@@ -1,4 +1,4 @@
-var promptOn = alert("Kindly turn on permissions for Audio and Video in the address bar above");
+alert("Kindly enable Audio and Video permissions for the website");
            
 function landingvid() {
 
