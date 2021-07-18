@@ -131,9 +131,9 @@ body {
     border-top: 160%;
     height:50px;
     width:50px;  
-    font-size:30px;
+    font-size:20px;
     transform: rotate(330deg);
-    font-family: fantasy;
+    font-family: "Papyrus", fantasy;
 }
 #clicktinytan  div:hover {
     height: 200px;
