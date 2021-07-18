@@ -1,4 +1,4 @@
-var promptOn = alert("Kindly turn on permissions for Audio and Video in the address bar above");
+var promptOn = confirm("Kindly turn on permissions for Audio and Video in the address bar above");
 function landingvid() {
 
     console.log("getting to func");
