@@ -136,6 +136,7 @@ body {
     z-index: 4;
     width: 45%;
     font-family: "Papyrus", fantasy;
+    float:left;
 }
 #clicktinytan  div:hover {
     height: 200px;
