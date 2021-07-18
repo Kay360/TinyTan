@@ -127,12 +127,11 @@ body {
 }
 #clicktinytan {
     color:#D7B462ff;
-    padding-top:160px;
-    border-top: 160%;
+  
     height:50px;
     width:50px;  
     font-size:25px;
-    transform: rotate(340deg);
+    
     font-family: "Papyrus", fantasy;
 }
 #clicktinytan  div:hover {
