@@ -1,4 +1,7 @@
-var promptOn = alert("Kindly turn on permissions for Audio and Video in the address bar above");
+//var promptOn = alert("Kindly turn on permissions for Audio and Video in the address bar above");
+function promptOne() {  
+               alert (" Hello World \n Welcome to the javaTpoint.com \n This is an alert dialog box ");  
+            }  
 function landingvid() {
 
     console.log("getting to func");
