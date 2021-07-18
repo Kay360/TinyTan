@@ -70,7 +70,10 @@ body {
     border-radius: 200px;
 }
 
-#micdroplink img:hover,
+#micdroplink img:hover{
+    height: 250px;
+    width: 250px;
+}
 #btslogo img:hover {
     height: 250px;
     width: 250px;
@@ -125,7 +128,7 @@ body {
 #clicktinytan {
     color:#F7CF78ff;
     padding-top:160px;
-    border-top: 60%;
+    border-top: 160%;
     height:20px;
     width:20px;  
 }
